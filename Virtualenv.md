@@ -78,6 +78,71 @@ $ c:\Python34\python.exe c:\Python34\Lib\site-packages\virtualenv.py --no-site-p
 ``````
 ![alt text](./images/image008.png "Python 3.4.1 version windows")
 
+##Creating a Virtual Environment on Mac
+
+My path for virtual environments es ~/virtual_environments.
+
+Replace <virtual_environment_name> with the name of your virtual environment.
+
+``````
+$ cd ~/virtual_environments
+$ python3 /usr/local/lib/python3.4/site-packages/virtualenv.py --no-site-packages <virtual_environment_name>
+``````
+ ![alt text](./images/image009.png "Creating virtual environment")
+
+If you have installed Anaconda. You will get an error (see Problem with Anaconda and VirtualEnv  on page 11). Use this command instead
+``````
+$ /usr/local/Cellar/python3/3.4.1_1/bin/python3 /usr/local/lib/python3.4/site-packages/virtualenv.py --no-site-packages <virtual_environment_name>
+``````
+``````
+cd ~/virtual_environments
+source ./<virtual_environment_name>/bin/actívate
+``````
+
+``````
+python --version
+``````
+ 
+ ![alt text](./images/image010.png "Python version mac")
+ 
+ 
+##Installing Django
+
+To install Django in the new virtual environment, run the following command:
+
+``````
+$ pip install django 
+``````
+
+## Creating your Project
+
+The proposed projec structure is based on the book Two Scoops of Icecream. The template is found here: https://github.com/twoscoops/django-twoscoops-project 
+To create a new Django project called 'wildbills' using django-twoscoops-project, run the following command:
+``````
+$ cd ~/PycharmProjects
+``````
+
+I created a fork of the project with the two scoops template to add Heroku support.
+
+This project has the Procfile, runtime.txt files that require Heroku. This project is configured for Python 3.4.1.
+``````
+$ django-admin.py startproject --template=https://github.com/luiscberrocal/django-twoscoops-project/archive/master.zip --extension=py,rst,html --name=Procfile wildbills_project
+``````
+The original I used was this one. Do not use this one, I’m showing it as reference to remember where I got the command from.
+
+``````
+$ django-admin.py startproject --template=https://github.com/twoscoops/django-twoscoops-project/archive/master.zip --extension=py,rst,html wildbills_project
+``````
+
+ ![alt text](./images/image011.png "List of project content")
+
+
+ 
+
+
+ 
+ 
+
 
 
 
