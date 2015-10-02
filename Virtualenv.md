@@ -141,17 +141,17 @@ $ django-admin.py startproject --template=https://github.com/twoscoops/django-tw
 Before you install the dependencies make sure you have exported the path of the postgre executable (seeExporting the Postgres path page  54)
 Depending on where you are installing dependencies:
 In development:
-´´´´´
+``````
 $ cd ~/Pycharm_Projects/wildbills_project
 $ pip install -r requirements/local.txt 
-´´´´´´
+``````´
 ![alt text](./images/image012.png "local requirements")
 
 if you get an error while installing psycopg2 check Exporting the Postgres path (page 39)
 Run pip freeze to check if everything installed 
-´´´´´
+``````
 $ pip freeze
-´´´´´
+``````
 It should look something like this:
 
 ![alt text](./images/image013.png "local requirements pip freeze")
@@ -160,7 +160,7 @@ It should look something like this:
 I used my fork for the two-scoops of icecream template it will also include the postegres packages and other 
 packages required for Heroku. After a pip freeze it would look something more like this
 
-´´´´´
+``````
 Django==1.6.5
 Jinja2==2.7.3
 MarkupSafe==0.23
@@ -181,13 +181,13 @@ pystache==0.5.4
 six==1.7.3
 sqlparse==0.1.11
 static==1.0.2
-´´´´´
+``````
 
 For production:
 
-´´´´´
+``````
 $ pip install -r requirements.txt
-´´´´´´
+``````
 
 note: We install production requirements this way because many Platforms as a Services expect a requirements.txt file in the root of projects.
 
@@ -203,9 +203,9 @@ http://www.lfd.uci.edu/~gohlke/pythonlibs/#psycopg
 
 ![alt text](./images/image015.png "Download psycopg2")
 
-´´´´´
+``````
 $ pip install C:\Users\lberrocal\Downloads\psycopg2-2.5.5-cp34-none-win32.whl
-´´´´´´
+``````
 
 ![alt text](./images/image016.png "psycopg2")
 
@@ -222,11 +222,11 @@ When I ran python --version I realized when installing Anaconda it changed my de
 
 Instead of using python3 use /usr/local/Cellar/python3/3.4.1_1/bin/python3
 
-´´´´´´
+``````
 
 $ /usr/local/Cellar/python3/3.4.1_1/bin/python3 /usr/local/lib/python3.4/site-packages/virtualenv.py --no-site-packages <virtual_environment_name>
 
-´´´´´´
+``````
 
 ###Automating the VirtualEnv Environment
 
@@ -236,7 +236,7 @@ I created a smal bash script that will create the environment and the Project. T
 
 This script is on a gist https://gist.github.com/525480de74d4a23d6670.git 
 
-´´´´´´bash
+``````bash
 #!/bin/bash -e
 
 VIRTUAL_ENVIRONMENT_FOLDER=~/virtual_environments
@@ -258,7 +258,7 @@ pip install psycopg2
 
 echo 'Created environment '  $VIRTUAL_ENVIRONMENT_FOLDER/$1_env
 echo 'Created project ' $PYCHARM_PROJECT_FOLDER/$1_project
-´´´´´´
+``````
 
 ./setup_django_project.sh <project_name>
 
