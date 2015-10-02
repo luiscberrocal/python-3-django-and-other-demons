@@ -12,7 +12,7 @@ As of august 2015 Heroku supports 3.4.3 which is the lateste versión.
 
 Since I cheated forcing home brew to  install an older Python3 formula. I had to do a hard reset to eliminate the python3.rb formula.
 
-``````console
+``````bash
 $ cd $( brew --prefix )
 
 $ git reset –hard
