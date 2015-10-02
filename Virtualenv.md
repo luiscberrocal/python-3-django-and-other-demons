@@ -144,7 +144,7 @@ In development:
 ``````
 $ cd ~/Pycharm_Projects/wildbills_project
 $ pip install -r requirements/local.txt 
-``````´
+``````
 ![alt text](./images/image012.png "local requirements")
 
 if you get an error while installing psycopg2 check Exporting the Postgres path (page 39)
