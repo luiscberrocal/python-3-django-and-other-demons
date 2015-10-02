@@ -24,3 +24,40 @@ $ brew install python3
 ``````
 
 ![alt text](./images/image002.png "Git results")
+
+
+##Installing versión Python 3.4.1
+
+Current homebrew version installs Python 3.4.2 but Heroku currently supports python 3.4.1.
+So we need to install 3.4.1. To do this  we need to install a specific commit
+
+The commit we are looking for can be found at http://braumeister.org/formula/python3
+
+
+![alt text](./images/image003.png "Python 3.4.1 formula")
+
+
+
+You must unlink the current versión 3.4.2
+$ brew unlink python3
+
+
+
+
+First, go to the homebrew base directory
+``````
+$ cd $( brew --prefix )
+``````
+
+Checkout some old formula
+```````
+$ git checkout 979810a69b2dd4e9e0e4374b9eb3f361dc6cd54a Library/Formula/python3.rb
+$ brew install python3
+``````
+ … installing
+
+
+
+
+
+
