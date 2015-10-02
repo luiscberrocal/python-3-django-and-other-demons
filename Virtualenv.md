@@ -22,3 +22,5 @@ $ brew upgrade
 $ brew install python3
 
 ``````
+
+![alt text](./images/image002.png "Git results")
