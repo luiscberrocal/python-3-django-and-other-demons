@@ -6,5 +6,5 @@
 * [PyCharm](PyCharm.md)
 * [PyDev on Eclipse Luna](Pydev_on_Eclipse.md)
 * [Git](git.md)
-* [Postgres](Postegres.md)
+* [Postgres](Postgres.md)
 * [Django Configuration](Django_configuration.md)
