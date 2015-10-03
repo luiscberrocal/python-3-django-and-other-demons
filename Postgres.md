@@ -138,8 +138,9 @@ $ python manage.py syncdb --settings=timesheet_project.settings.local
 
 /etc/postgresql/9.1/main/pg_hba.conf
 
+![Postgres error 2](./images/image077.png "Postgres error 2")
 
-
-service postgresql restart
-
+```
+$ service postgresql restart
+```
 
