@@ -134,7 +134,7 @@ $ python manage.py syncdb --settings=timesheet_project.settings.local
 
 ##Problem connecting to Postgres from Windows
 
-
+![Postgres error 1](./images/image076.png "Postgres error 1")
 
 /etc/postgresql/9.1/main/pg_hba.conf
 
