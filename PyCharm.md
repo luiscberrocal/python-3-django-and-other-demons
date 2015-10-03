@@ -57,11 +57,9 @@ The following steps are to enable git as version control for your project.
 ![Configure Django Server 4](./images/image038.png "Configure Django Server 4")
 
 
+Now open http://127.0.0.1:8555/ the page should look like this:
 
-
-Now open http://127.0.0.1:8555/
-
-
+![Configure Django Server 5](./images/image039.png "Configure Django Server 5")
 
 
 
