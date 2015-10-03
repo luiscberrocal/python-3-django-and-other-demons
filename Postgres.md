@@ -71,27 +71,7 @@ Download from http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/osx/
 ![Creating Database 10](./images/image072.png "Creating Database 10")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Exporting the Postgres path
+##Exporting the Postgres path
 
 If you get an error Reading:
 
@@ -101,15 +81,17 @@ You need to include in the PATH variable the postgres path
 
 PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin/
 
-Connecting Django to Database
+##Connecting Django to Database
 
-This should have been installed with the local requirements. So don’t run it. 
+This should have been installed with the local requirements. So DO NOT run it. 
 
+```
 $ pip install psycopg2
-
-
+```
 
 Edit settings/local.py and replace database configuration for this:
+
+```python
 
 ########## DATABASE CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
@@ -124,18 +106,19 @@ DATABASES = {
     },
 }
 ########## END DATABASE CONFIGURATION
+```
 
 
-Run syncdb (Django 1.6 or less)
+##Run syncdb (Django 1.6 or less)
 
+```
 $ python manage.py syncdb --settings=timesheet_project.settings.local
 
+```
 
+![Run syncdb 1](./images/image073.png "Run syncdb 1")
 
-
-
-
-
+![Run syncdb 2](./images/image074.png "Run syncdb 2")
 
 
 
