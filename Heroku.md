@@ -8,19 +8,19 @@ https://toolbelt.heroku.com/
 
 ![Installing the Heroku Toolbelt 1](./images/image078.png "Installing the Heroku Toolbelt 1")
 
+![Installing the Heroku Toolbelt 2](./images/image079.png "Installing the Heroku Toolbelt 2")
+
+![Installing the Heroku Toolbelt 3](./images/image080.png "Installing the Heroku Toolbelt 3")
+
+![Installing the Heroku Toolbelt 4](./images/image081.png "Installing the Heroku Toolbelt 4")
+
+![Installing the Heroku Toolbelt 5](./images/image082.png "Installing the Heroku Toolbelt 5")
+
+![Installing the Heroku Toolbelt 6](./images/image083.png "Installing the Heroku Toolbelt 6")
 
 
 
-
-
-
-
-
-
-
-
-
-Getting started
+## Getting started
 
 Once installed, you'll have access to the heroku command from your command shell. Log in using the email address and password you used when creating your Heroku account:
 
