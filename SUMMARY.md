@@ -7,4 +7,5 @@
 * [PyDev on Eclipse Luna](Pydev_on_Eclipse.md)
 * [Git](git.md)
 * [Postgres](Postgres.md)
+* [Heroku](Heroku.md)
 * [Django Configuration](Django_configuration.md)
