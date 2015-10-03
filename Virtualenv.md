@@ -232,6 +232,44 @@ $ /usr/local/Cellar/python3/3.4.1_1/bin/python3 /usr/local/lib/python3.4/site-pa
 
 It is a boring process every time I start a new Project to  create the virtual environment and configure my Project the way I want it.
 
+####Windows
+
+This script is on a gist  https://gist.github.com/1da4dfd3f39c0e8563d7.git
+
+``````
+@echo off
+SET VIRTUAL_ENVIRONMENT_FOLDER=C:\python_environments
+SET PYCHARM_PROJECT_FOLDER=%USERPROFILE%\PyCharmProjects
+SET PYTHON_PROJECT=%~1
+SET PROJECT_ENVIRONMENT=%VIRTUAL_ENVIRONMENT_FOLDER%\%PYTHON_PROJECT%_env
+cd %VIRTUAL_ENVIRONMENT_FOLDER%
+REM echo %PYCHARM_PROJECT_FOLDER%
+echo %PROJECT_ENVIRONMENT%
+C:\Python34\python.exe C:\Python34\Lib\site-packages\virtualenv.py --no-site-packages %PROJECT_ENVIRONMENT%
+
+call %PROJECT_ENVIRONMENT%\Scripts\activate.bat
+
+%PROJECT_ENVIRONMENT%\Scripts\pip.exe install Django==1.7.9
+
+cd %PYCHARM_PROJECT_FOLDER%
+
+%PROJECT_ENVIRONMENT%\Scripts\django-admin.exe startproject --template=https://github.com/luiscberrocal/django-twoscoops-project/archive/master.zip --extension=py,rst,html --name=Procfile %PYTHON_PROJECT%
+
+echo Created enviroment %PROJECT_ENVIRONMENT%
+echo Created project %PYCHARM_PROJECT_FOLDER%\%PYTHON_PROJECT%
+``````
+ 
+ 
+``````
+setup_django_project.bat <project_name>
+``````
+
+
+This will create a <project_name>_env environment folder and a <project_name>_project folder. It will also install django 1.7.9
+
+
+####Mac
+
 I created a smal bash script that will create the environment and the Project. The script is called setup_django_project.sh
 
 This script is on a gist https://gist.github.com/525480de74d4a23d6670.git 
