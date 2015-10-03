@@ -78,8 +78,9 @@ If you get an error Reading:
 Error: pg_config executable not found.
 
 You need to include in the PATH variable the postgres path
-
+```
 PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin/
+```
 
 ##Connecting Django to Database
 
@@ -123,14 +124,15 @@ $ python manage.py syncdb --settings=timesheet_project.settings.local
 
 
 
-Run syncdb (Django 1.7.x)
+##Run syncdb (Django 1.7.x)
 
+```
 $ python manage.py syncdb --settings=timesheet_project.settings.local
+```
 
+![Run syncdb 1.7](./images/image075.png "Run syncdb 1.7")
 
-
-
-Problem connecting to PostGres from Windows
+##Problem connecting to Postgres from Windows
 
 
 
@@ -141,4 +143,3 @@ Problem connecting to PostGres from Windows
 service postgresql restart
 
 
-Heroku
