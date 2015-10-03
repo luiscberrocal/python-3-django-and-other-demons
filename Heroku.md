@@ -20,7 +20,7 @@ https://toolbelt.heroku.com/
 
 
 
-## Getting started
+## Getting started with Heroku
 
 Once installed, you'll have access to the heroku command from your command shell. Log in using the email address and password you used when creating your Heroku account:
 
@@ -33,11 +33,20 @@ Would you like to generate one? [Yn]
 Generating new SSH public key.
 Uploading ssh public key /Users/adam/.ssh/id_rsa.pub
 
-Since I already had ssh keys created and uploaded it didn’t aske me for SSH keys.
+Since I already had ssh keys created and uploaded it didn’t ask me for SSH keys.
 
+![Getting started with Heroku 1](./images/image084.png "Getting started with Heroku 1")
 
 From your virtualenv:
-$ pip install django-toolbelt Installing collected packages: Django, psycopg2, gunicorn, dj-database-url, dj-static, static   ... Successfully installed Django psycopg2 gunicorn dj-database-url dj-static static Cleaning up... 
+
+![Getting started with Heroku 2](./images/image085.png "Getting started with Heroku 2")
+
+```
+$ pip install django-toolbelt 
+
+Installing collected packages: Django, psycopg2, gunicorn, dj-database-url, dj-static, static   ... Successfully installed Django psycopg2 gunicorn dj-database-url dj-static static Cleaning up... 
+```
+
 Runtime.txt
 
 python-3.4.1
