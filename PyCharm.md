@@ -27,49 +27,41 @@ The following steps are to enable git as version control for your project.
 
 ![alt text](./images/image029.png "Enable Vesion Control 1")
 
-![alt text](./images/image030.png "Enable Vesion Control 2")
+![Enable Vesion Control 2](./images/image030.png "Enable Vesion Control 2")
 
-![alt text](./images/image031.png "Enable Vesion Control 3")
+![Enable Vesion Control 3](./images/image031.png "Enable Vesion Control 3")
 
 
 ##Configure Django Support
 
+![Configure Django Support](./images/image032.png "Configure Django Support")
+
+###Configure Content Root
+
+![Configure Content Root 1](./images/image033.png "Configure Content Root 1")
+
+![Configure Content Root 1](./images/image034.png "Configure Content Root 2")
 
 
-Configure Content Root
+###Configure Django Server
+
+![Configure Django Server 1](./images/image035.png "Configure Django Server 1")
 
 
+![Configure Django Server 2](./images/image036.png "Configure Django Server 2")
 
 
+![Configure Django Server 3](./images/image037.png "Configure Django Server 3")
 
 
-
-
-
-Configure Django Server
-
-
-
-
-
-
-
-
-
-
-
+![Configure Django Server 4](./images/image038.png "Configure Django Server 4")
 
 
 
 
-
-
-
-http://127.0.0.1:8555/
-
+Now open http://127.0.0.1:8555/
 
 
 
 
-PyDev on Eclipse Luna
 
