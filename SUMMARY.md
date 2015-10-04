@@ -1,6 +1,7 @@
 # Summary
 
 * [Requirements](Requirements.md)
+* [Python 3](Python3.md)
 * [Virtualenv](Virtualenv.md)
 * [Bitbucket](Bitbucket.md)
 * [PyCharm](PyCharm.md)
