@@ -65,6 +65,7 @@ $ brew install python3
 ![alt text](./images/image006.png "Python 3.4.1 install")
 
 ![alt text](./images/image007.png "Python 3.4.1 version")
+>>>>>>> External Changes
 
 ##Installing Virtualenv for Python3
 
