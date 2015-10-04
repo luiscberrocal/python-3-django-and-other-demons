@@ -1,5 +1,9 @@
 #Introduction
 
+##Python 3, Django and Other Demons version {{ book.version }}
+
+Last Updated: {{ file.mtime }}
+
 Most tutorials Django tutorials will start with the creation of the first app.
 
 Configuring the environments can be sometimes cumbersome and confusing if you don't do this often enough.
