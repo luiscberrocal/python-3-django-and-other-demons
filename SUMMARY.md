@@ -8,4 +8,5 @@
 * [Git](git.md)
 * [Postgres](Postgres.md)
 * [Heroku](Heroku.md)
+* [Wercker](Wercker.md)
 * [Django Configuration](Django_configuration.md)
