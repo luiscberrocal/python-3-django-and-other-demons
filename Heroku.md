@@ -184,4 +184,6 @@ heroku run python wildbills_project/manage.py collectstatic --settings=wildbills
 
 ##Troubleshooting
 
+```
 heroku run python wildbills_project/manage.py shell --settings=wildbills_project.settings.production
+```
