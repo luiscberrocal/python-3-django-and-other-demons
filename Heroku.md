@@ -47,18 +47,26 @@ $ pip install django-toolbelt
 Installing collected packages: Django, psycopg2, gunicorn, dj-database-url, dj-static, static   ... Successfully installed Django psycopg2 gunicorn dj-database-url dj-static static Cleaning up... 
 ```
 
-Runtime.txt
+##Runtime.txt
 
+Verify your runtime contains the correct Python 3 version.
+
+Mine reads:
+
+```
 python-3.4.1
-Procfile
+```
+
+##Procfile
 
 Create the Procfile at /Users/luiscberrocal/PycharmProjects/wildbills_project/
 
-web: gunicorn wildbills_project/wildbills_project.wsgi--log-file –
+```
+web: gunicorn wildbills_project/wildbills_project.wsgi
+```
 
+##Django settings
 
-
-Django settings
 Next, configure the application for the Heroku environment, includingHeroku’s Postgres database. The dj-database-url module will parse the value of the DATABASE_URL environment variable and convert them to something Django can understand.
 Make sure ‘dj-database-url’ is in your requirements file, then add the following to the bottom of your settings.py file:
 settings.py
