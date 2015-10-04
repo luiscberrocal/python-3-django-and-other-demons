@@ -87,6 +87,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (     os.path.join(BASE_DIR, 'static'), ) 
 ```
 
+### Changes to the wsgi.py
 With these settings available, you can add the following code to wsgi.py to serve static files in production:
 ```
 wsgi.py
@@ -94,16 +95,18 @@ from django.core.wsgi import get_wsgi_application
 from dj_static import Cling  
 ```
 
-Changes on manage.py
+###Changes on manage.py
 
+```
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "timeclock_project.settings.production")
 
     from django.core.management import execute_from_command_line
 
     execute_from_command_line(sys.argv)
+````
 
-Create  Site on Heroku
+##Create  Site on Heroku
 
 Login to Heroku
 
