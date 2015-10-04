@@ -1,8 +1,20 @@
 #Git
 
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+I you want to learn more about git I recommend [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub.
+
 ##Activate git flow
 
-![Activate git flow 1](./images/image054.png "Activate git flow 1")
+SourceTree offers a way to manage branches in a coherent way. I won't detail on what git flow does.
+
+I prefer to use a v in fron of my version tags. So I adde a v as the image shows.
+
+Open SourceTree and click on the Git Flow button.
+
+![Activate git flow 1](./images/git-flow_1.png "Activate git flow 1")
+
+![Activate git flow 2](./images/image054.png "Activate git flow 2")
 
 ##Existing Project
 
