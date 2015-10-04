@@ -172,6 +172,6 @@ heroku run python wildbills_project/manage.py collectstatic --settings=wildbills
 ![pgAdmin Heroku](./images/image086.png "pgAdmin Heroku")
 
 
-Troubleshooting
+##Troubleshooting
 
 heroku run python wildbills_project/manage.py shell --settings=wildbills_project.settings.production
