@@ -39,8 +39,6 @@ Since I already had ssh keys created and uploaded it didn’t ask me for SSH key
 
 From your virtualenv:
 
-![Getting started with Heroku 2](./images/image085.png "Getting started with Heroku 2")
-
 ```
 $ pip install django-toolbelt 
 
@@ -68,6 +66,8 @@ web: gunicorn wildbills_project/wildbills_project.wsgi
 ##Django settings
 
 Next, configure the application for the Heroku environment, includingHeroku’s Postgres database. The dj-database-url module will parse the value of the DATABASE_URL environment variable and convert them to something Django can understand.
+
+### Changes to the settings.py
 
 Make sure ‘dj-database-url’ is in your requirements file, then add the following to the bottom of your settings.py file:
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 Login to Heroku
 
 
-
+![Login to Heroku](./images/image085.png "Login to Heroku")
 
 
 
