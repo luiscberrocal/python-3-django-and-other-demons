@@ -114,23 +114,26 @@ Login to Heroku
 ![Login to Heroku](./images/image085.png "Login to Heroku")
 
 
-
-
-
-
-
-
-Deploy to Heroku
+##Deploy to Heroku
 
 Must be on .git root to run 
 
+```
 git push heroku master
+````
 
-Configure Django on Heroku
+##Configure Django on Heroku
 
+```
 heroku run python <project_name>/manage.py syncdb --settings=<project_name>.settings.production
+````
 
+For example for proyect quiz_project it would look like this:
+
+```
 heroku run python  quiz_project/manage.py migrate quiz_account --settings =quiz_project.settings.production
+```
+
 
 
 heroku apps:create <project_name> --buildpack=git://github.com/heroku/heroku-buildpack-python.git 
