@@ -125,40 +125,42 @@ git push heroku master
 ##Configure Django on Heroku
 
 ```
-heroku run python <project_name>/manage.py syncdb --settings=<project_name>.settings.production
+$ heroku run python <project_name>/manage.py syncdb --settings=<project_name>.settings.production
 ````
 
 For example for proyect quiz_project it would look like this:
 
 ```
-heroku run python  quiz_project/manage.py migrate quiz_account --settings =quiz_project.settings.production
+$ heroku run python  quiz_project/manage.py migrate quiz_account --settings =quiz_project.settings.production
 ```
 
 
+```
+$ heroku apps:create <project_name> --buildpack=git://github.com/heroku/heroku-buildpack-python.git 
 
-heroku apps:create <project_name> --buildpack=git://github.com/heroku/heroku-buildpack-python.git 
-heroku addons:add memcachier:dev 
-heroku addons:add sendgrid:starter 
-heroku addons:add heroku-postgresql:dev 
-heroku addons:add pgbackups:auto-month 
-heroku addons:add newrelic:standard 
-heroku config:add AWS_ACCESS_KEY_ID=<key id> 
-heroku config:add AWS_SECRET_ACCESS_KEY=<secret key> 
-heroku config:add AWS_STORAGE_BUCKET_NAME=<bucket name> setopt rcquotes 
+$ heroku addons:add memcachier:dev 
+$ heroku addons:add sendgrid:starter 
+$ heroku addons:add heroku-postgresql:dev 
+$ heroku addons:add pgbackups:auto-month 
+$ heroku addons:add newrelic:standard 
+$ heroku config:add AWS_ACCESS_KEY_ID=<key id> 
+$ heroku config:add AWS_SECRET_ACCESS_KEY=<secret key> 
+$ heroku config:add AWS_STORAGE_BUCKET_NAME=<bucket name> setopt rcquotes 
+```
 
+```
+$ git push heroku master
+```
 
-git push heroku master
-
-
-heroku ps:scale web=1
-
-
-
-heroku run python <project_name>/manage.py syncdb --settings=<project_name>.settings.production 
-heroku run python <project_name>/manage.py migrate --settings=<project_name>.settings.production 
-heroku run python <project_name>/manage.py createsuperuser --settings=<project_name>.settings.production 
-heroku run python <project_name>/manage.py collectstatic --settings=<project_name>.settings.production
-
+```
+$ heroku ps:scale web=1
+```
+```
+$ heroku run python <project_name>/manage.py syncdb --settings=<project_name>.settings.production 
+$ heroku run python <project_name>/manage.py migrate --settings=<project_name>.settings.production 
+$ heroku run python <project_name>/manage.py createsuperuser --settings=<project_name>.settings.production 
+$ heroku run python <project_name>/manage.py collectstatic --settings=<project_name>.settings.production
+```
 
 
 http://test-heroku-lcb.herokuapp.com/ | git@heroku.com:test-heroku-lcb.git
