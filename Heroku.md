@@ -177,9 +177,9 @@ heroku run python wildbills_project/manage.py collectstatic --settings=wildbills
 
 ![pgAdmin Heroku 1](./images/image089.png "pgAdmin Heroku 1")
 
-![pgAdmin Heroku 2](./images/image089.png "pgAdmin Heroku 2")
+![pgAdmin Heroku 2](./images/image090.png "pgAdmin Heroku 2")
 
-![pgAdmin Heroku 3](./images/image089.png "pgAdmin Heroku 3")
+![pgAdmin Heroku 3](./images/image091.png "pgAdmin Heroku 3")
 
 
 ##Troubleshooting
