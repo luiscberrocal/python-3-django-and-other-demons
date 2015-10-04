@@ -111,7 +111,13 @@ if __name__ == "__main__":
 Login to Heroku
 
 
-![Login to Heroku](./images/image085.png "Login to Heroku")
+![Login to Heroku 1](./images/image085.png "Login to Heroku 1")
+
+![Login to Heroku 2](./images/image086.png "Login to Heroku 2")
+
+![Login to Heroku 3](./images/image087.png "Login to Heroku 3")
+
+![Login to Heroku 4](./images/image088.png "Login to Heroku 4")
 
 
 ##Deploy to Heroku
@@ -169,7 +175,7 @@ heroku run python wildbills_project/manage.py collectstatic --settings=wildbills
 
 ##Connecting pgAdmin to Heroku  Database
 
-![pgAdmin Heroku](./images/image086.png "pgAdmin Heroku")
+![pgAdmin Heroku](./images/image088.png "pgAdmin Heroku")
 
 
 ##Troubleshooting
