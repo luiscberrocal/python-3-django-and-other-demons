@@ -12,7 +12,7 @@ http://hackercodex.com/guide/python-development-environment-on-mac-osx/
 ##Updating version 3.4.1 to 3.4.3
 
 As of august 2015 Heroku supports 3.4.3 which is the latest version, So you don't have 
-to follow the steps shown in [Installing version Python 3.4.1]([install-python-341])
+to follow the steps shown in [Installing version Python 3.4.1](#installing-version-python-3-4-1)
 
 Since I cheated forcing home brew to  install an older Python3 formula. I had to do a hard reset to eliminate the python3.rb formula.
 
@@ -30,7 +30,7 @@ $ brew install python3
 ![alt text](./images/image002.png "Git results")
 
 
-##Installing version Python 3.4.1 [install-python-341] ##
+##Installing version Python 3.4.1
 
 Current homebrew version installs Python 3.4.2 but Heroku currently supports python 3.4.1.
 So we need to install 3.4.1. To do this  we need to install a specific commit
