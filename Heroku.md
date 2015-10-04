@@ -67,8 +67,11 @@ web: gunicorn wildbills_project/wildbills_project.wsgi
 
 ##Django settings
 
-Next, configure the application for the Heroku environment, includingHeroku’s Postgres database. The dj-database-url module will parse the value of the DATABASE_URL environment variable and convert them to something Django can understand.
-Make sure ‘dj-database-url’ is in your requirements file, then add the following to the bottom of your settings.py file:
+Next, configure the application for the Heroku environment, includingHeroku’s Postgres database. The dj-database-url module will parse the value of the DATABASE_URL environment variable and convert them to something Django can understand.
+
+Make sure ‘dj-database-url’ is in your requirements file, then add the following to the bottom of your settings.py file:
+
+```python
 settings.py
 # Parse database configuration from $DATABASE_URL 
 import dj_database_url 
@@ -82,11 +85,14 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = 'staticfiles' 
 STATIC_URL = '/static/'  
 STATICFILES_DIRS = (     os.path.join(BASE_DIR, 'static'), ) 
-With these settings available, you can add the following code towsgi.py to serve static files in production:
+```
+
+With these settings available, you can add the following code to wsgi.py to serve static files in production:
+```
 wsgi.py
 from django.core.wsgi import get_wsgi_application 
 from dj_static import Cling  
-application = Cling(get_wsgi_application()) 
+```
 
 Changes on manage.py
 
