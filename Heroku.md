@@ -167,13 +167,9 @@ http://test-heroku-lcb.herokuapp.com/ | git@heroku.com:test-heroku-lcb.git
 
 heroku run python wildbills_project/manage.py collectstatic --settings=wildbills_project.settings.production
 
-Connecting pgadmin to Heroku  Database
+##Connecting pgAdmin to Heroku  Database
 
-
-
-
-
-
+![pgAdmin Heroku](./images/image086.png "pgAdmin Heroku")
 
 
 Troubleshooting
