@@ -3,9 +3,8 @@
 Since part of the workflow shown here is to deploy to Heroku we need to be sure we are using
 a version of Python supported by Heroku. Always check [Supported Python Runtimes](https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes)
 
-http://blog.manbolo.com/2013/02/04/how-to-install-python-3-and-pydev-on-osx
+There is more than one way to install Python 3 since I already had a Hombebrew installed I based my configuration on [How to Install Python 3 and PyDev on OSX](http://blog.manbolo.com/2013/02/04/how-to-install-python-3-and-pydev-on-osx) and [Python Development Environment on Mac OS X Yosemite 10.10](http://hackercodex.com/guide/python-development-environment-on-mac-osx/).
 
-http://hackercodex.com/guide/python-development-environment-on-mac-osx/
 
 ##Updating version 3.4.1 to 3.4.3
 

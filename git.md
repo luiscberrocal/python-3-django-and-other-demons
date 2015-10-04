@@ -8,7 +8,7 @@ I you want to learn more about git I recommend [Pro Git](https://git-scm.com/boo
 
 SourceTree offers a way to manage branches in a coherent way. I won't detail on what git flow does.
 
-I prefer to use a v in fron of my version tags. So I adde a v as the image shows.
+I prefer to use a v in front of my version tags. So I added a v as the image shows.
 
 Open SourceTree and click on the Git Flow button.
 
