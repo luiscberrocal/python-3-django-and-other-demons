@@ -1,26 +1,8 @@
 #Postgres
 
-{% include Requirements.md %}
+{% include "Requirements.md" %}
 
-###PGAdmin3 1.18.1
-
-It seems the postgress.app installation does not creat a postgress role by default. It created a username luiscberrocal. I could only connect to the database with that user.
-
-
-Download from http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/osx/
-
-
-![PGAdmin3 1.18.1 1](./images/image059.png "PGAdmin3 1.18.1 1")
-
-![PGAdmin3 1.18.1 2](./images/image060.png "PGAdmin3 1.18.1 2")
-
-
-##Starting Postgres
-
-![Starting Postgres 1](./images/image061.png "Starting Postgres 1")
-
-![Starting Postgres 2](./images/image062.png "Starting Postgres 2")
-
+{% include "Starting_Postgres.md" %}
 
 ##Creating Database
 
