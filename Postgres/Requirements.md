@@ -21,9 +21,9 @@ On first launch, Postgres will initialise a new database cluster and create a da
 If you'd like to use the command line tools delivered with Postgres.app, see the section on Command Line Tools.
 
 
-![Installing Postgres.app 1](./images/image057.png "Installing Postgres.app 1")
+![Installing Postgres.app 1](../images/image057.png "Installing Postgres.app 1")
 
-![Installing Postgres.app 2](./images/image058.png "Installing Postgres.app 2")
+![Installing Postgres.app 2](../images/image058.png "Installing Postgres.app 2")
 
 ###PGAdmin3 1.18.1
 
@@ -33,6 +33,6 @@ It seems the postgress.app installation does not creat a postgress role by defau
 Download from http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/osx/
 
 
-![PGAdmin3 1.18.1 1](./images/image059.png "PGAdmin3 1.18.1 1")
+![PGAdmin3 1.18.1 1](../images/image059.png "PGAdmin3 1.18.1 1")
 
-![PGAdmin3 1.18.1 2](./images/image060.png "PGAdmin3 1.18.1 2")
+![PGAdmin3 1.18.1 2](../images/image060.png "PGAdmin3 1.18.1 2")

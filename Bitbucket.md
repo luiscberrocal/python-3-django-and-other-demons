@@ -14,11 +14,3 @@ Type the name of your repository
 ![Bitbucket 3](./images/image020.png "Bitbucket 3")
 
 ![Bitbucket 4](./images/image021.png "Bitbucket 4")
-
-
-
-
-
-
-
-
