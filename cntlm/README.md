@@ -116,7 +116,7 @@ Save the file
 
 Restart the cntlm service
 
-### Configure Proxy in IE Explorer
+### Configuring Proxy in IE Explorer
 
 Open IE
 
