@@ -4,9 +4,11 @@ If you have trouble with Cntlm and don't know if you are actually getting to the
 
 1. Stop the `Cntlm Authentication Proxy` service
 
-2. Open a command windows on Windows.
+2. Open a command windows.
 
-3. Move to the directory where the cntlm.exe is located. Usually C:\Program Files (x86)\Cntlm\cntlm.exe. 	Run:
+3. Move to the directory where the cntlm.exe is located. Usually C:\Program Files (x86)\Cntlm\cntlm.exe. 	
+
+	Run:
 ```
 > cntlm -f
 ```
@@ -49,3 +51,5 @@ cntlm: PID 9672: 127.0.0.1 CONNECT sm3lir.cloudimage.io:443 127.0.0.1 CONNECT pl
 27.0.0.1 CONNECT sm3lir.cloudimage.io:443
 ```
 This readout shows your computer is accesing the Internet through the proxy.
+
+If you don't see any activity check your cntlm.ini you probably have something wrong in your configuration. The most common problem is a wrong password.

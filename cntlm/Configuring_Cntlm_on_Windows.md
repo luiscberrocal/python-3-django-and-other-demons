@@ -19,7 +19,6 @@ No run the hashing the command.
 $ C:\Program Files (x86)\Cntlm\cntlm.exe -H
 ```
 
-
 ```
 c:\Program Files (x86)\Cntlm>cntlm -H
       4 [main] cntlm 9364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD poin
@@ -32,8 +31,9 @@ cygwin warning:
   Consult the user's guide for more details about POSIX paths:
     http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
 Password:
+
 ```
-Type your domain password
+Type your domain password. I suggest you do this twice and compare the hashes it happens a lot to me that I make a typo in my password. Do not email or share your password hash this is the equivalent to your password if another users gets a hold o it he will be able to impersonate your user in the domain.
 
 ```
 PassLM          9EAB9AB5B7C08D32552C4BCA4AEBFB11
@@ -43,9 +43,7 @@ domain 'mydomain'
 
 ```
 
-
-
-On the command window where you ran the `cntlm.exe -H` command copy the following content and paste it in the cntlm.ini (line 16-20)
+On the command window where you ran the `cntlm.exe -H` command copy the following content and paste it in the cntlm.ini (around line 16-20)
 
 ```
 PassLM          9EAB9AB5B7C08D32552C4BCA4AEBFB11
