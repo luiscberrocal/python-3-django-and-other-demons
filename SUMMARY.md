@@ -2,7 +2,11 @@
 
 * [Introduction](README.md)
 * [Requirements](Requirements.md)
-* [Cntlm](cntlm.md)
+* [Cntlm](./cntlm/README.md)
+	* [Installing Cntlm on Windows](./cntlm/Installing_Cntlm_on_Windows.md)
+	* [Configuring Cntlm on Windows](./cntlm/Configuring_Cntlm_on_Windows.md)
+	* [Configuring Pro y in IE Explorer](./cntlm/Configuring_Proxy_in_IE_Explorer.md)
+	* [Troubleshooting Cntlm](./cntlm/Troubleshooting_Cntlm.md)
 * [Python 3](Python3.md)
 * [Virtualenv](Virtualenv.md)
 * [Bitbucket](Bitbucket.md)
