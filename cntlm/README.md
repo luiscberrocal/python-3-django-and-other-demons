@@ -1,7 +1,7 @@
 #CNTLM
 
  If you are behind a NTLM proxy (any Microsoft proxy) using authenticatio you will not be able to use the pip package manager.
- In orther to circunvent this you need to install the [cnltm](http://cntlm.sourceforge.net/)
+ In order to circumvent this you need to install the [cnltm](http://cntlm.sourceforge.net/)
 
 
 {% include "Installing_Cntlm_on_Windows.md" %}
