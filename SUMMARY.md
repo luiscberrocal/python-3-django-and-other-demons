@@ -8,7 +8,7 @@
 	* [Configuring Pro y in IE Explorer](./cntlm/Configuring_Proxy_in_IE_Explorer.md)
 	* [Troubleshooting Cntlm](./cntlm/Troubleshooting_Cntlm.md)
 * [Python 3](Python3.md)
-* [Virtualenv](./Virtualenv/Virtualenv.md)
+* [Virtualenv](./Virtualenv/README.md)
 	* [Installing Virtualenv for Python3](./Virtualenv/Installing_Virtualenv_for_Python3.md)
 	* [Creating a Virtual Environment on Windows 7](./Virtualenv/Creating_a_Virtual_Environment_on_Windows_7.md)
 	* [Creating a Virtual Environment on OSx](./Virtualenv/Creating_a_Virtual_Environment_on_OSx.md)
