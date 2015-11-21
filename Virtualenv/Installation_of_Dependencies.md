@@ -1,6 +1,21 @@
 ##Installation of Dependencies
 
-Before you install the dependencies make sure you have exported the path of the postgre executable (seeExporting the Postgres path page  54)
+Before you install the dependencies make sure you have exported the path of the postgres executable (this is for mac only).
+
+###Exporting the Postgres path
+
+If you get an error Reading:
+
+Error: pg_config executable not found.
+
+You need to include in the PATH variable the postgres path
+
+```
+ $ PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin/
+````
+
+###Installing Requirements
+
 Depending on where you are installing dependencies:
 In development:
 ``````
